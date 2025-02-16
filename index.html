@@ -52,25 +52,24 @@ https://patorjk.com/software/taag/#p=display&f=Swan&t=CONTACT
 </head>
 <body class="bg-gradient-to-r from-[var(--background-color-start)] to-[var(--background-color-end)] text-[var(--text-color)] font-[Raleway] min-h-screen">
 <header class="p-6 text-center border-b border-[var(--secondary-color)] shadow-md flex flex-col items-center">
-<!--
-.--. .--.  .--. .---.--.--.    .---.  .--. .   . .--..---..--.
-|   )|   ):    :|      |  |    |      |   )|   |:    : | :    :
-|--' |--' |    ||---   |  |    |---   |--' |---||    | | |    |
-|    |  \ :    ;|      |  |    |      |    |   |:    ; | :    ;
-'    '   ` `--' '    --'--'---''---'  '    '   ' `--'  '  `--'
-PROFILE PHOTO
--->
+    <!--
+    .--. .--.  .--. .---.--.--.    .---.  .--. .   . .--..---..--.
+    |   )|   ):    :|      |  |    |      |   )|   |:    : | :    :
+    |--' |--' |    ||---   |  |    |---   |--' |---||    | | |    |
+    |    |  \ :    ;|      |  |    |      |    |   |:    ; | :    ;
+    '    '   ` `--' '    --'--'---''---'  '    '   ' `--'  '  `--'
+    PROFILE PHOTO
+    -->
     <img src="./img/avatar.jpg" alt="Avatar Profile Photo" class="w-32 h-32 rounded-full shadow-lg mb-4">
 
-<!--
-.   .             .
-|   |             |
-|---| .-. .-.  .-.| .-. .--.
-|   |(.-'(   )(   |(.-' |
-'   ' `--'`-'`-`-'`-`--''
-HEADER
--->
-    <!-- "Lisa Chen" - Works Fine -->
+    <!--
+    .   .             .
+    |   |             |
+    |---| .-. .-.  .-.| .-. .--.
+    |   |(.-'(   )(   |(.-' |
+    '   ' `--'`-'`-`-'`-`--''
+    HEADER
+    -->
     <h1 class="text-7xl text-[var(--primary-color)] name-font tracking-wide opacity-0 translate-y-10
     animate-fadeInUp transition-transform duration-300 ease-in-out
     hover:scale-110 hover:drop-shadow-lg hover:text-[var(--quinary-color)]">
@@ -143,10 +142,6 @@ HEADER
             </li>
         </ul>
     </nav>
-
-
-
-
 </header>
 
 <!--
@@ -157,19 +152,17 @@ HEADER
 '       `'`-'  `-' `--`-`-'
 ABOUT
 -->
-<section id="about" class="mt-24 py-16 text-center mx-auto bg-gradient-to-r from-[var(--quaternary-color)] to-[var(--tertiary-color)]
-    rounded-xl shadow-md w-full max-w-4xl transition-transform transform hover:scale-105 hover:shadow-xl">
-<!--    class="text-5xl text-[var(--primary-color)] name-font tracking-wide opacity-0 translate-y-10
-    animate-fadeInUp transition-transform duration-300 ease-in-out
-    hover:scale-110 hover:drop-shadow-lg hover:text-[var(--quinary-color)]"-->
-    <h2 class="relative text-4xl font-semibold text-[var(--primary-color)] text-center pb-2">
-        The Bug That Became a Feature
-        <span class="absolute left-1/2 transform -translate-x-1/2 bottom-0 w-40 h-[6px]
+<h2 class="relative text-5xl font-semibold text-[var(--primary-color)] text-center pb-2 mt-24">
+    The Bug That Became a Feature
+    <span class="absolute left-1/2 transform -translate-x-1/2 bottom-0 w-40 h-[6px]
         bg-gradient-to-r from-[#D93D3D] via-[#FF6B6B] to-[#FF9F43]
         animate-pulse rounded-full">
     </span>
-    </h2>
-    <p class="mt-8 max-w-2xl mx-auto text-base leading-relaxed">
+</h2>
+
+<section id="about" class="mt-12 py-16 text-center mx-auto bg-gradient-to-r from-[var(--quaternary-color)] to-[var(--tertiary-color)]
+    rounded-xl shadow-md w-full max-w-4xl transition-transform transform hover:scale-105 hover:shadow-xl">
+    <p class="max-w-2xl mx-auto text-base leading-relaxed">
         <span class="text-2xl font-semibold bg-gradient-to-r from-[#D93D3D] via-[#FF6B6B] to-[#FF9F43] text-transparent bg-clip-text bg-opacity-100">
             I've always believed that every challenge is an opportunity to grow, and my journey reflects that.
         </span>
@@ -227,16 +220,19 @@ ABOUT
          `-'
 PROJECTS
 -->
-<section id="projects" class="mt-24 py-16 text-center">
-    <h2 class="relative text-5xl font-semibold text-[var(--primary-color)] text-center pb-2">
-        The Innovation Repository
-        <span class="absolute left-1/2 transform -translate-x-1/2 bottom-0 w-40 h-[6px]
+<h2 class="relative text-5xl font-semibold text-[var(--primary-color)] text-center pb-2 mt-24">
+    The Innovation Repository
+    <span class="absolute left-1/2 transform -translate-x-1/2 bottom-0 w-40 h-[6px]
         bg-gradient-to-r from-[#D93D3D] via-[#FF6B6B] to-[#FF9F43]
         animate-pulse rounded-full">
     </span>
-    </h2>
-    <div class="mt-10 flex flex-col space-y-12 w-full max-w-4xl mx-auto">
-        <div class="p-8 w-full max-w-3xl mx-auto bg-gradient-to-tl from-[var(--box-color)] to-[var(--tertiary-color)] text-[var(--text-color)] rounded-2xl shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl">
+</h2>
+
+<!-- Projects Section -->
+<section id="projects" class="py-12 text-center">
+    <div class="flex flex-col space-y-12 w-full max-w-4xl mx-auto">
+        <div class="p-8 w-full max-w-3xl mx-auto bg-gradient-to-tl from-[var(--box-color)] to-[var(--tertiary-color)]
+            text-[var(--text-color)] rounded-2xl shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl">
             <h3 class="text-2xl font-bold">TBD</h3>
             <p class="mt-2">TBD</p>
         </div>
@@ -263,30 +259,81 @@ CONTACT
         </span>
     </h2>
 
-    <div class="max-w-md mx-auto p-8 mt-8 rounded-2xl shadow-lg relative
+    <div class="max-w-md mx-auto p-8 mt-12 rounded-2xl shadow-lg relative
         bg-gradient-to-br from-[#E6B8A2] via-[#F8D7BE] to-[#D37D4D]
         transition-transform transform hover:scale-105 hover:shadow-2xl
         hover:bg-gradient-to-bl hover:from-[#D37D4D] hover:via-[#E6B8A2] hover:to-[#F8D7BE]">
 
         <img src="./img/avatar.jpg" alt="Your Profile" class="w-24 h-24 mx-auto rounded-full shadow-md">
 
-
         <h3 class="mt-4 text-3xl font-bold text-[var(--text-color)] drop-shadow-md
-            transition-all duration-300 ease-in-out
-            hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r
-            hover:from-[#D93D3D] hover:via-[#FF8C42] hover:to-[#D04A02]
-            hover:drop-shadow-[0_0_20px_rgba(255,80,80,0.9)]">
+        transition-all duration-300 ease-in-out
+        hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r
+        hover:from-[#D93D3D] hover:via-[#FF8C42] hover:to-[#D04A02]
+        hover:drop-shadow-[0_0_20px_rgba(255,80,80,0.9)]">
             Lisa Chen
         </h3>
 
-        <p class="mt-2 text-lg font-medium text-[var(--text-color)] opacity-90">Software Engineer | Java, React, Python</p>
+        <p class="mt-2 text-lg font-medium text-[var(--text-color)] opacity-90">
+            Software Engineer | Java, React, Python
+        </p>
 
-        <a href="mailto:xxxx" class="mt-6 inline-block px-5 py-2 rounded-lg shadow-md text-lg font-semibold
-            bg-[var(--primary-color)] text-white transition-all duration-300
-            hover:bg-[var(--quinary-color)] hover:text-white hover:scale-105">
-            Let's Chat!
-        </a>
+        <!-- Button to Open Form -->
+        <button onclick="toggleForm()" class="mt-6 inline-block px-5 py-2 rounded-lg shadow-md text-lg font-semibold
+        bg-[var(--primary-color)] text-white transition-all duration-300
+        hover:bg-[var(--quinary-color)] hover:text-white hover:scale-105">
+            Get In Touch
+        </button>
+
+        <!-- Hidden Contact Form -->
+        <div id="contactForm" class="hidden fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
+            <div class="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full">
+                <form action="https://formspree.io/f/mjkgpvwa" method="POST"
+                      class="bg-gradient-to-br from-pink-200 via-blue-200 to-purple-200
+             p-6 rounded-2xl shadow-lg max-w-sm w-full border border-gray-300">
+
+                    <h2 class="text-2xl font-semibold text-gray-800 text-center mb-4">
+                        Get in Touch
+                    </h2>
+
+                    <label class="block text-sm font-medium text-gray-700">Your Name</label>
+                    <input type="text" name="name" required
+                           class="w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-300
+                  focus:outline-none bg-white shadow-sm transition-all duration-200 mb-4">
+
+                    <label class="block text-sm font-medium text-gray-700">Your Email</label>
+                    <input type="email" name="email" required
+                           class="w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-300
+                  focus:outline-none bg-white shadow-sm transition-all duration-200 mb-4">
+
+                    <label class="block text-sm font-medium text-gray-700">Message</label>
+                    <textarea name="message" required
+                              class="w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-300
+                     focus:outline-none bg-white shadow-sm transition-all duration-200 mb-4"></textarea>
+
+                    <input type="text" name="_gotcha" style="display:none;">
+
+                    <button type="submit"
+                            class="w-full bg-gradient-to-r from-pink-400 via-blue-400 to-purple-400
+                   text-white font-bold py-3 rounded-lg shadow-md hover:from-pink-500 hover:via-blue-500
+                   hover:to-purple-500 transition-all duration-300">
+                        Send Message
+                    </button>
+
+                    <!-- Close Button -->
+                    <button onclick="toggleForm()" class="mt-3 text-gray-500 hover:text-gray-800">Cancel</button>
+                </form>
+            </div>
+        </div>
     </div>
+
+    <!-- JavaScript to Toggle Form Visibility -->
+    <script>
+        function toggleForm() {
+            const form = document.getElementById("contactForm");
+            form.classList.toggle("hidden");
+        }
+    </script>
 </section>
 
 
@@ -296,4 +343,3 @@ CONTACT
 </footer>
 </body>
 </html>
-Z
